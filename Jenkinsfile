@@ -13,5 +13,10 @@ pipeline {
 echo M2_HOME = ${RZ_HOME}'''
       }
     }
+    stage('') {
+      steps {
+        sh 'echo "this is a test"'
+      }
+    }
   }
 }
